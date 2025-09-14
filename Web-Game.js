@@ -164,6 +164,7 @@ function step4(level, numwords, emoji){
         t=document.getElementById("movie").value
         if (t.trim().toLowerCase().replace(/\s+/g,"")===`thechroniclesofnarnia`){
             document.getElementById("intro").innerText="Correct! Congratulations! You completed the Quiz. Final Score:" + h +"/500"
+            h+=100
             document.getElementById("submit").style.display="none"
             document.getElementById("hint").style.display="none"
             document.getElementById("label").style.display="none"
